@@ -1,0 +1,84 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Spasi antar baris */
+    background-color: #f4f4f4; /* Warna latar belakang halaman */
+    color: #333; /* Warna teks */
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #4A90E2; /* Warna header */
+    color: white; /* Warna teks header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem; /* Jarak atas menu */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: white; /* Warna link */
+    text-decoration: none; /* Hapus garis bawah */
+    font-weight: bold; /* Tebal untuk link */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+section {
+    margin: 2rem auto; /* Jarak antar section */
+    padding: 2rem; /* Jarak dalam section */
+    max-width: 800px; /* Lebar maksimum */
+    background-color: white; /* Warna latar belakang section */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif; /* Jenis font untuk judul */
+    margin-bottom: 1rem; /* Jarak bawah judul */
+}
+
+h1 {
+    font-size: 2.5rem; /* Ukuran font h1 */
+}
+
+h2 {
+    font-size: 1.8rem; /* Ukuran font h2 */
+    margin-top: 1.5rem; /* Jarak atas h2 */
+    color: #4A90E2; /* Warna h2 */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4A90E2; /* Warna footer */
+    color: white; /* Warna teks footer */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Lebar penuh footer */
+}
+
+ul {
+    list-style-type: disc; /* Tipe list */
+    padding-left: 20px; /* Padding untuk list */
+}
+
+ul li {
+    margin-bottom: 0.8rem; /* Jarak antar item list */
+}
